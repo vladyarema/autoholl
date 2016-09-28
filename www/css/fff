@@ -1,0 +1,359 @@
+body{
+	background:#191919;
+	padding:0;
+	margin:0;
+	font-family:"BebasNeue";
+}
+header{
+	font-family:"BebasNeue";
+	width:100%;
+	margin:0px;
+  position: relative;
+  background-image:url("../images/car.png");
+  background-repeat:no-repeat;
+  background-position:top center;
+  min-height:668px;
+}
+.gps{
+	margin-top:25px;
+	width: 240px;
+	float:left;
+}
+.nav-header{
+  width: 100%;
+  height: 110px;
+  background-color:rgba(0, 0, 0, 0.6);
+	opacity:0.8;
+	border-bottom:1px solid #4c4c4c;
+}
+#location{
+	font-size:22px;
+	color:#fefefe;
+	font-size:22px;
+	text-decoration:underline;
+}
+#icon_gps{
+	float:left;
+	padding-right:15px;
+}
+#moscow{
+	padding-top:0;
+	color:#d12f22;
+	font-size:32px;
+}
+.info_center{
+	height:100%;
+	margin:0 auto;
+	width:1120px;
+}
+.oder_number{
+	margin-top:25px;
+	float:right;
+}
+#number{
+	font-size:32px;
+	color:#fefefe;
+}
+#allocation_number{
+	color:#d12f22;
+}
+.center_h1{
+	height:100px;
+	width:1120px;
+	margin:0 auto;
+	text-align:center;
+	vertical-align:middle;
+}
+#oder{
+	font-size:22px;
+	text-decoration:underline;
+	color:#fefefe;
+}
+#logo{
+	position:absolute;
+	top:0;
+	width:1120px;
+	margin:0 auto;
+	text-align:center;
+}
+#description_logo{
+	position:absolute;
+	top:180px;
+	font-size:40px;
+	color:#fff;
+	width:1120px;
+	margin:0 auto;
+	text-align:center;
+}
+h1{
+	font-size:40px;
+	color:#fff;
+	text-transform: uppercase;
+	text-shadow:0 3px rgba(0, 0, 0, 0.55);
+}
+.button_camera span{
+	padding:0;
+	height:100%;
+	width:100%;
+	font:20px "BebasNeueBold";
+	color:#ffffff;
+	display:block;
+	text-transform: uppercase; /* Заглавные буквы */
+ }
+
+.button_camera:hover{
+	background:#ac160a;
+}
+.button_camera{
+	width:240px;
+	position:absolute;
+	left:200px;
+	bottom:32px;
+	background:#d12f22;
+	box-shadow: 0 -3px #ac160a inset;
+	border:none;
+	transition: 0.2s;
+}
+.button_camera img{
+	padding-right:10px;
+	float:left;
+}
+.button_camera span{
+	width:140px;
+}
+.button_price{
+	background:#d12f22;
+	text-transform: uppercase; /* Заглавные буквы */
+	box-shadow: 0 -3px #ac160a inset;
+  transition: 0.2s;
+  position:absolute;
+	left:480px;
+	bottom:32px;
+	border:none;	height:55px;
+	cursor:pointer;
+	color:#ffffff;
+	text-align:center;
+}
+.button_price:hover{
+	background:#ac160a;
+}
+.nav-main{
+	width:100%;
+	height:60px;
+	background:rgb(36,36,36);
+	margin:0;
+	border-bottom:1px solid rgb(58,58,58);
+	font-family:"BebasNeue";
+}
+.nav-main ul{
+	list-style:none;
+	margin:0px;
+	padding:0;
+	float:left;
+}
+.nav-main ul li{
+	padding-left:7px;
+	border-right:1px solid rgb(58,58,58);
+	height:60px;
+	text-align:center;
+	vertical-align:middle;
+	display:table-cell;
+}
+.nav-main ul li a{
+	text-decoration:none;
+	font-size:20px;
+	color:#fff;
+	padding-right:15px;
+	padding-left:10px;
+	display:block;
+}
+.nav-main ul li:last-child{
+	border-right:none;
+}
+.nav-main ul li:hover{
+	background:rgb(5,5,5);
+}
+.nav-main ul li a img{
+	padding-right:5px;
+}
+.waranty {
+	height:50px;
+  border:3px solid #fff;
+  border-radius:3px;
+  color:#fff;
+  float:right;
+  font-size:15px;
+  font-family: "RobotoCondensedRegular", sans-serif;
+  margin-top: 5px;
+}
+.w_left{
+	font-size:20px;
+	float:left;
+	font-family:"BebasNeueBold";
+	margin-right: 5px;
+}
+.w_left span{
+	font-size:34px;
+}
+.w_right{
+	float:left;
+	margin-left:5px;
+	font-family: "RobotoCondensedRegular";
+	text-transform:uppercase;
+	margin-right:3px;
+}
+main{
+	width:100%;
+	margin:0 auto;
+}
+section{
+	font-family:"BebasNeue";
+}
+.first_section{
+	background:#191919;
+	width:100%;
+}
+.info_section{
+	width:1120px;
+	margin:0px auto;
+	text-align:center;
+}
+.info_section h2{
+	font-size:40px;
+	color:#c9c9c9;
+	padding-top:70px;
+	padding-bottom:20px;
+}
+.auto{
+	color:#FFF;
+}
+.hol{
+	color:#d12f22;
+}
+.services_div{
+	width:160px;
+	border:1px solid #353535;
+	border-radius:3px;
+	text-align:center;
+	vertical-align:middle;
+	display:table-cell;
+	height:165px;
+}
+.services_div a{
+	font-size:18px;
+	color: #fff;
+	width:100%;
+	display:block;
+	text-align:center;
+}
+.button{
+	text-align:center;
+	background:#d12f22;
+	box-shadow: 0 -3px #ac160a inset;
+  transition: 0.2s;
+  border:none;
+  width:220px;
+  height:55px;
+  margin-top:40px;
+  margin-bottom:50px;
+  float:none;
+	font:20px "BebasNeueBold";
+	color:#ffffff;
+	cursor:pointer;
+}
+.button_menu{
+	display:none;
+	font-family: "BebasNeueBold";
+	font-size:22px;
+}	
+.button:hover{
+	background:#ac160a;
+}
+.button p{
+	text-align:center;
+	padding:0px;
+	margin:15px 0px 0px 0px;
+}
+.second_section{
+	clear:both;
+}
+.descrip_work:nth-child(3n){
+	margin-right:0px;
+}
+.title_section{
+	background:#e9e9e9;
+	width:100%;
+	padding:50px 0px 35px 0px;
+}
+.title_section h3{
+	color:#050505;
+	font-size:40px;
+	margin:0px;
+	font-family:"BebasNeueBold";
+}
+.title_section p{
+	font-size:16px;
+	color:#050505;
+	text-align:center;
+}
+.content_second_section{
+	width:100%;
+	background: #d6d6d6;
+	float:left;
+}
+.descrip_work{
+	width:350px;
+	float:left;
+	font-size:14px;
+	text-align:center;
+	border-top:8px solid #ac160a;
+	margin-right:35px;
+	min-height:380px;
+	margin-top:40px;
+}
+.descrip_work p{
+	font-family:"Myriad Pro";
+}
+.last_section{
+	background:#fff;
+	width:100%;
+	float:left;
+	padding-top:35px;
+}
+.container h4{
+	text-transform: uppercase;
+	font-size:36px;
+	float:left;
+	margin:0px
+}
+.button_order{
+	text-align:center;
+	background:#d12f22;
+	box-shadow: 0 -3px #ac160a inset;
+  transition: 0.2s;
+  float:right;
+  border:none;
+  width:175px;
+  height:45px;
+  font:20px "BebasNeue";
+	color:#ffffff;
+	text-align:center;
+	padding:0px;
+	margin:15px 0px 0px 0px;
+	cursor:pointer;
+}
+.button_order:hover{
+	background:#ac160a;
+}
+.info_last_section{
+	float:left;
+	padding-top:40px;
+	width:100%;
+	font-size:16px;
+	font-family:"RobotoRegular", sans-serif;
+}
+
+
+.clear{
+	clear:both;
+}
